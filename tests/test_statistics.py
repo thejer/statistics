@@ -7,7 +7,7 @@ test_statistics
 
 Tests for `core` module.
 """
-from core.exploration.summary import Summary
+from core.exploration.summary import mean
 
 import pytest
 
