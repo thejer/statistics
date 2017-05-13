@@ -11,7 +11,7 @@ class Averages:
     Would eventually have to rewrite them though.
     """
     def __init__(self,data=None):
-        self.data = Data(data)
+        self.data = data
 
     def median(self,data=None, data_type=None, **kwargs):
         if not data_type:

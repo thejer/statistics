@@ -5,5 +5,5 @@ class StatsError(Exception):
 
 class DataSizeError(StatsError):
     def __init__(self, message):
-        super(StatsError).__init__(message)
+        super(StatsError, self).__init__(message)
         pass
